@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><input type="text" class="add-task" id="add" placeholder="Search by name, email or role">  </div>
+   
+    <ul class="header">
+        <li>
+            <div id="checkAll"><input type="checkbox"></div>
+            <div>
+              Name
+            </div>
+            <div>
+              Email
+            </div>
+            <div>Role</div>
+            <div>Actions</div>
+        </li>
+    </ul>
+
+    <ul id="list" class="list-details">
+    </ul>
+    <div class="container">
+        <div>
+            <button id="deleteSelected" class="delete-many">Delete selected</button>
+        </div>
+        <div class="page-wrapper" id="pagination-wrapper"></div>
+    </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>
